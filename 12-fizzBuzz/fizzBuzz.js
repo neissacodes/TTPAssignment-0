@@ -4,7 +4,7 @@ function fizzBuzz(start, end) {
   let resultArray = [];
 
   //Use a for loop to iterate through the resultArray
-  for(int i = start; i <= end; i++){
+  for(let i = start; i <= end; i++){
     if(i%3 == 0 && i%5 == 0){
       resultArray.push("FizzBuzz");
     }

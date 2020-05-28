@@ -3,7 +3,7 @@ function sumOfNumsWithinARange(nums, start, end) {
   //Initialize a count to sum all numbers within
   let count = 0;
   //Use a for loop to iterate through the range
-  for(int i = start; i <= end ; i++){
+  for(let i = start; i <= end ; i++){
       count += nums[i];
     }
   }

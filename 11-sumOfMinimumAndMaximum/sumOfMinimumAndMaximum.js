@@ -3,7 +3,7 @@ function sumOfMinimumAndMaximum(nums) {
   let sum = 0;
 
   //Sort the array using insertion sort then grab the first and last value of the array
-  for(int i = 1; i < nums.length; i++){
+  for(let i = 1; i < nums.length; i++){
     let key = nums[i];
     j = i - 1;
     while(j > 0 && nums[j] > key){
